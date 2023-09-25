@@ -1,0 +1,10 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background: rgb(37, 200, 200);
+    margin: 0 auto;	
+    border-radius: 15px;
+    overflow: scroll;
+    padding: 10px;
+    
+}

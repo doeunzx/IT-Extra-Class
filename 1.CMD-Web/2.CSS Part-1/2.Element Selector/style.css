@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+}
+
+.li-text {
+  color: red;
+}
+a[href="www.google.com"] {
+  color: rgb(0, 255, 34);
+}
+#my{
+    color: rgb(7, 110, 110);
+}
+.text-me {
+    color: rgb(137, 187, 22);
+}

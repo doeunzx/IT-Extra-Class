@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    /* background-position: 100px 20px; */
+    /* background-size: 100px 100px; */
+    /* background-size: 100px; */
+    background-size:cover ;
+    height: 200vh;
+    background-attachment: fixed;
+}
+.container{
+    margin: auto;
+    width: 400px;
+    height: 400px ;
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container img{
+   object-fit: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.container img:hover{
+    transition: all 0.42s ease;
+    filter: blur(10px);
+}

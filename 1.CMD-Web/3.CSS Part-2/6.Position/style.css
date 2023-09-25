@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 1500px;
+}
+
+.container{
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: lightskyblue;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.children0{
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.children1{
+    position: sticky;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.children2{
+    position: absolute;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+

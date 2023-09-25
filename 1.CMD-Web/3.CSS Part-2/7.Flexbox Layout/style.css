@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-direction: column;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items:center;
+    flex-wrap: wrap; */
+    align-content: center;        /* use for make the near the other item */
+    gap:13px;
+    width: 90vw;
+    height: 80vh;
+    border: 5px solid pink;
+    margin: 0 auto;
+}
+.container > div{
+    height: 70px;
+    width: 70px;
+    flex-basis: 20rem;
+ 
+}
+.box-one{
+   
+    /* flex-basis: 20rem; trong nis mean neii the vea reech rum tov tam ka jg bn bos yg */
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.box-two{
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.box-three{
+   /* flex-shrink: 0; */
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+}
+/* Flex-basic, Flex-growth , Flex-shrink, Flex */
+

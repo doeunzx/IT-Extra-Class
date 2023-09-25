@@ -1,0 +1,13 @@
+.coloring{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(165, 42, 42,0.6);
+    text-align: center;
+    margin-left: 33rem;
+    border-radius: 15px;
+    padding: 10px;
+}
+.coloring p{
+    color: rgba(140, 20, 20, 0.5);
+
+}

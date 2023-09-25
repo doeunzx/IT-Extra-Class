@@ -1,0 +1,33 @@
+.main-text {
+  width: 300px;
+  height: 300px;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  margin-top: 15rem;
+  margin-left: 33rem;
+  padding: 10px;
+  text-align: center;
+}
+p {
+  color: aquamarine;
+}
+#text {
+  color: pink;
+}
+.text{
+    color: blueviolet;
+}
+.text p{
+    color: gray;
+}
+
+p#text{
+    color: red;
+}
+.text#text{
+    color: gray;
+}
+
+.main-text a,h1,p {
+    color: red;
+}

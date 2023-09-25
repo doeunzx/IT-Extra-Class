@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: greenyellow;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid rgb(24, 22, 22);
+    padding: 15px;
+    margin: auto;
+}
+.text th{
+    font-weight: normal;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.border td{
+    border-collapse: collapse;
+    border: none;
+   
+    
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&family=Noto+Serif+Khmer:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 1300px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif,'Koh Santepheap', serif;
+}
+p{
+    text-align: justify;
+}

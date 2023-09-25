@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+    justify-content: center;
+    max-width: 1350px;
+    display: grid;
+    grid-template: repeat(9,100px) / repeat(3,1fr);
+    gap: 8px;
+    grid-template-areas: 
+    "header header header "
+    "card slide slide"
+    "card slide slide"
+    "card slide slide"
+    "card1 card2 card3"
+    "card1 card2 card3"
+    "card1 card2 card3"
+    "footer footer footer"
+    "footer footer footer"
+    
+
+  ;
+}
+.main1{
+    background-color: lightblue;
+    grid-area: header;
+}
+.main2{
+    background-color: lightblue;
+    grid-area: card;
+}
+.main3{
+    background-color: lightblue;
+    grid-area: slide;
+}
+.main4{
+    background-color: lightblue;
+    grid-area: card1;
+}
+.main5{ 
+    background-color: lightblue;
+    grid-area: card2;
+}
+.main6{
+    background-color: lightblue;
+    grid-area: card3;
+}
+.footer{
+    background-color: lightblue;
+    grid-area: footer;
+}
+
+

@@ -1,0 +1,89 @@
+.text :last-child{
+    color: rgb(255, 0, 89);
+}
+.text :first-child{
+    color: pink;
+}
+.text{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(187, 252, 252);
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    transition: all 0.42s ease;
+    margin-right: 1rem;
+}
+.text:hover{
+    background-color: pink;
+}
+.text1{
+    transition: all 0.42s ease;
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+
+}
+.text1:hover{
+    background-color: aquamarine;
+}
+.text1 :first-of-type{
+    color: white;
+}
+.text1 :last-of-type{
+    color: brown;
+}
+.text2{
+    transition: all 0.42s ease;
+    margin-left: 1rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgb(15, 216, 15);
+    padding: 10px;
+    text-align: center;
+}
+.text2:hover{
+    background-color: rgb(92, 52, 3);
+}
+.text2 h3:last-of-type{
+    color: rgb(230, 160, 56);
+}
+.text2 p:last-of-type{
+    color: rgb(230, 160, 56);
+}
+.text2 a:last-of-type{
+    color: rgb(230, 160, 56);
+}
+.text3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(190, 146, 231);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 1rem;
+    transition: all 0.42s ease;
+
+}
+.text3:hover{
+    background-color: bisque;
+}
+/*This is for make color line that we want to add color or do with sth*/
+.text3 :nth-child(4){
+    color: white;
+}
+.text3 :nth-child(odd){
+    color: rgb(224, 18, 18);
+}
+.text3 :nth-child(even){
+    color: green;
+}
+.all-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 13rem;
+}

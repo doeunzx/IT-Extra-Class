@@ -1,0 +1,102 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(2,200px);
+    gap: 15px;
+    padding: 15px;
+  
+}
+.grid-1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1/5;
+    /* background-color: aquamarine; */
+}
+.grid-2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-row: 1/5;
+    /* background-color:aquamarine; */
+}
+.flex-box{
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(250, 247, 244);
+    width: 350px;
+    height: 300px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 13px;
+    width: 310px;
+}
+.flex-box button{
+    padding: 13px;
+    width: 310px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(60, 60, 249);
+}
+.flex-box a{
+    color: aliceblue;
+}
+.text-style h1{
+    color: rgb(55, 55, 252);
+}
+.a-fix-color a{
+    font-size: 13px;
+    color: rgb(114, 114, 248);
+    
+}
+.line{
+    width: 310px;
+    border-bottom:1px solid rgb(187, 184, 184) ;
+}
+.buttom{
+    
+    margin-top: 0.7rem;
+}
+.buttom button{
+    background-color: rgb(4, 150, 4);
+    padding: 13px;
+    width: 165px;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        flex-direction: column;
+        display: flex; 
+    }
+    p{
+        display: none;
+    }
+}
+
+
+

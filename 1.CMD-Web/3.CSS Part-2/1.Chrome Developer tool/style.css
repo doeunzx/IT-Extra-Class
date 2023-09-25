@@ -1,0 +1,13 @@
+.developer{
+    background: pink;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    max-width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,50px);
+    border: 2px solid gray;
+
+}

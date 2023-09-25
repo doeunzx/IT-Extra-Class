@@ -1,0 +1,20 @@
+div {
+  color: white;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  border-radius: 20px;
+  background-image: url(heart\ image.jpg);
+  background-size: 600px 400px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: absolute;
+  right: 30%;
+  top: 30%;
+}
+span {
+  color: red;
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 3px;
+}

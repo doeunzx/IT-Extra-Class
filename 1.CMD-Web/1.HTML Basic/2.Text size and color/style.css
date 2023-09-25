@@ -1,0 +1,14 @@
+strong{
+    font-weight: normal;
+    color: black;
+    font-size: 50px;
+}
+em{
+    font-style: normal;
+    color: lightcoral;
+    font-size: 60px;
+}
+p{
+    font-size: 40px;
+    color: blue;
+}
