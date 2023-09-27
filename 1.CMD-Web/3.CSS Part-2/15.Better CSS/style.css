@@ -1,0 +1,43 @@
+:root{
+--color: rgb(238, 116, 116);
+}
+
+.main-body{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section{
+    width: 200px;
+    height: 200px;
+    background-color: var(--color);
+}
+.main{
+    width: 200px;
+    height: 200px;
+    background-color: var(--color);
+}
+.button{
+    width: 230px;
+    height: 200px;
+    margin-left: 25px;
+}
+.btn{
+    
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+}
+.blue{
+    border: 1px solid gray;
+    background-color: rgb(221, 214, 214);
+    color: white;
+}
+.gray{
+    color: rgb(225, 242, 247);
+    background-color: gray;
+}
