@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Croissant+One&family=Dela+Gothic+One&family=Koh+Santepheap:wght@400;700&family=Noto+Serif+Khmer:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.main-btn {
+  margin: auto;
+  max-width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+.top-btn {
+  display: flex;
+  gap: 2rem;
+}
+.btn {
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0 5px 0 rgb(207, 207, 220);
+  padding: 2rem 5rem;
+  background-color: aliceblue;
+}
+ .btn:hover{
+    box-shadow: 0 5px 0 pink ;
+ }
+.red:hover {
+    box-shadow: 0 5px 0  rgb(188, 49, 79);
+}
+.orange:hover {
+    box-shadow: 0 5px 0  rgb(227, 163, 73);
+}
+.blue:hover {
+    box-shadow: 0 5px 0  rgb(41, 117, 232);
+}
