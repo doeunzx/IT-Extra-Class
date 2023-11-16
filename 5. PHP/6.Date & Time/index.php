@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div style="color:red; border: 5px solid gray; border-radius:10px; width:70%; margin: auto;">
+    <div style="color:white; border: 5px solid gray; border-radius:10px; width:70%; margin: auto; background:dodgerblue;">
         <h1>
         <?php
         echo "Today is : " .date ("m-d-Y");
